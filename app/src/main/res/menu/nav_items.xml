@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_consultas"
+        android:enabled="true"
+        android:icon="@drawable/ic_receita"
+        android:title="Consultas"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_medicos"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_search"
+        android:title="Medicos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_perfil"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:title="Perfil" />
+</menu>

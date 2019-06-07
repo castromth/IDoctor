@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_selecionaFoto_memoria"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="   Escolher uma  foto na memoria"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/tv_selecionaFoto_tirar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:text="   Tirar foto"
+        android:textColor="@color/colorPrimaryText" />
+</RelativeLayout>

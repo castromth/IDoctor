@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_searchitem_foto"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/default_avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_searchitem_nome"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:singleLine="true"
+        android:text="Matheus Castro"
+        android:textColor="@color/colorPrimaryText"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_searchitem_foto"
+        app:layout_constraintStart_toEndOf="@+id/iv_searchitem_foto"
+        app:layout_constraintTop_toTopOf="@+id/iv_searchitem_foto" />
+
+    <TextView
+        android:id="@+id/tv_searchitem_espci"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:singleLine="true"
+        android:text="Cardiologista"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_searchitem_nome"
+        app:layout_constraintStart_toEndOf="@+id/tv_searchitem_nome"
+        app:layout_constraintTop_toTopOf="@+id/tv_searchitem_nome" />
+
+    <TextView
+        android:id="@+id/tv_searchitem_subespci"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="traumatologista"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_searchitem_espci"
+        app:layout_constraintStart_toEndOf="@+id/tv_searchitem_espci"
+        app:layout_constraintTop_toTopOf="@+id/tv_searchitem_espci" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_searchitem_foto" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:id="@+id/iv_usuario_photo"-->
+        <!--android:layout_width="72dp"-->
+        <!--android:layout_height="72dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/bt_volta"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_usuario_nome"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/colorPrimaryText"-->
+        <!--android:textSize="16sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/iv_usuario_photo"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/iv_usuario_photo"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/iv_usuario_photo" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/bt_desloga"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:background="@drawable/logout_button"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/iv_usuario_photo" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:text="Sair"-->
+        <!--android:textColor="@color/colorSecondaryText"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/iv_usuario_photo"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/bt_desloga"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/bt_desloga"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/bt_desloga"-->
+        <!--app:layout_constraintVertical_bias="0.0" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/bt_volta"-->
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:background="@drawable/ic_arrow_left"-->
+        <!--android:backgroundTint="@color/colorAccent"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/iv_usuario_photo"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/iv_usuario_photo" />-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/cv_receitas"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="108dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--android:elevation="1dp"-->
+        <!--app:cardCornerRadius="4dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvReceita01"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="36dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvReceita02"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="56dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:elevation="3dp"-->
+        <!--android:text="Receitas"-->
+        <!--android:textColor="@color/colorPrimaryText"-->
+        <!--android:textSize="14sp"-->
+        <!--android:typeface="monospace"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/cv_receitas"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/cv_receitas" />-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/cv_consultas"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="108dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/cv_receitas"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--android:elevation="1dp"-->
+        <!--app:cardCornerRadius="4dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvConsultas_consu1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvConsultas_consu2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="56dp"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:elevation="3dp"-->
+        <!--android:text="Consultas"-->
+        <!--android:textColor="@color/colorPrimaryText"-->
+        <!--android:typeface="monospace"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/cv_consultas"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/cv_consultas" />-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/cv_plano"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="108dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:elevation="1dp"-->
+        <!--app:cardCornerRadius="4dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/cv_consultas"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvPlano_nome"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvPlano_id"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="56dp"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView13"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="153dp"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:elevation="3dp"-->
+        <!--android:text="Plano de Saúde"-->
+        <!--android:textColor="@color/colorPrimaryText"-->
+        <!--android:typeface="monospace"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/cv_plano"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/cv_plano" />-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/cv_dados"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="108dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:elevation="1dp"-->
+        <!--app:cardCornerRadius="4dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/cv_plano"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv__cvdados_cpf"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="56dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvDados_nome"-->
+            <!--android:layout_width="129dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_cvDados_dataNasc"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="153dp"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="12sp" />-->
+    <!--</android.support.v7.widget.CardView>-->
+    <!--<TextView-->
+        <!--android:id="@+id/textView7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:elevation="3dp"-->
+        <!--android:text="Dados"-->
+        <!--android:textColor="@color/colorPrimaryText"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/cv_dados"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/cv_dados" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_usuario_semplano"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:elevation="3dp"-->
+        <!--android:text="Voce nao tem um plano cadastrado clique para introduzir as informaçaoes necessarias"-->
+        <!--android:textColor="@color/colorSecondaryText"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/cv_plano"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/cv_plano"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/cv_plano"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/cv_plano" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_usuario_semConsultas"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:elevation="3dp"-->
+        <!--android:text="Voce nao tem consultas marcadas"-->
+        <!--android:textColor="@color/colorSecondaryText"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/cv_consultas"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/cv_consultas"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/cv_consultas"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/cv_consultas" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_usuario_semReceita"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:elevation="3dp"-->
+        <!--android:text="Sem receitas no momento"-->
+        <!--android:textColor="@color/colorSecondaryText"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/cv_receitas"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/cv_receitas"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/cv_receitas"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/cv_receitas" />-->
+
+</android.support.constraint.ConstraintLayout>

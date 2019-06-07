@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_cardConsulta_especFoto"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/default_avatar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_cardConsulta_especialidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Cardiologista"
+                android:textColor="@color/colorPrimaryText"
+                app:layout_constraintStart_toEndOf="@+id/iv_cardConsulta_especFoto"
+                app:layout_constraintTop_toTopOf="@+id/iv_cardConsulta_especFoto" />
+
+            <TextView
+                android:id="@+id/tv_cardConsulta_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="12 DE DEZ 2017"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/tv_cardConsulta_especialidade"
+                app:layout_constraintTop_toBottomOf="@+id/tv_cardConsulta_especialidade" />
+
+            <TextView
+                android:id="@+id/tv_cardConsulta_medico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Dra. Hellen"
+                android:textColor="@color/colorPrimaryText"
+                app:layout_constraintEnd_toEndOf="@+id/tv_cardConsulta_status"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_cardConsulta_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:text="STATUS: Realizada"
+                android:textColor="@color/colorGreen"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_cardConsulta_medico" />
+
+            <TextView
+                android:id="@+id/tv_cardConsultas_horario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="15:15"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/tv_cardConsulta_data"
+                app:layout_constraintTop_toTopOf="@+id/tv_cardConsulta_data" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="ATESTADO MEDICO"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_atestado_texto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:text="Atesto que o paciente [ NOME ] necessita de [ NUMERO DE DIAS ] dias de afastamento por motivo de [ MOTIVO ]"
+        android:textColor="@color/colorSecondaryText"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Motivo: "
+        android:textColor="@color/colorSecondaryText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_atestado_texto" />
+
+    <TextView
+        android:id="@+id/tv_atestado_motivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Rinite aguda"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView32"
+        app:layout_constraintTop_toTopOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Assinatura do Medico"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_atestado_gerarPDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintStart_toStartOf="@+id/textView34" />
+
+    <Button
+        android:id="@+id/bt_atestado_gerarPDF"
+        style="@style/FirebaseUI.Button"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="GERAR PDF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_atestado_medicAss"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/view14"
+        app:layout_constraintEnd_toEndOf="@+id/view14"
+        app:layout_constraintStart_toStartOf="@+id/view14"
+        app:srcCompat="@color/colorDivider" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Paciente:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/tv_atestado_nomeRg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="[NOME RG]"
+        app:layout_constraintStart_toEndOf="@+id/textView35"
+        app:layout_constraintTop_toTopOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Data:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/tv_atestado_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="[DATA]"
+        app:layout_constraintStart_toEndOf="@+id/textView37"
+        app:layout_constraintTop_toTopOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Numero de identificaçao:"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_atestado_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="[ID]"
+        app:layout_constraintStart_toEndOf="@+id/textView43"
+        app:layout_constraintTop_toTopOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Todos os atestados sao unicos no nosso banco de dados. Acesse nosso site para confirmaçao"
+        app:layout_constraintBottom_toTopOf="@+id/iv_atestado_medicAss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

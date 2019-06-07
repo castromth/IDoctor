@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PlanoActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="PLANO DE SAÚDE"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <View
+        android:id="@+id/v_plano_divisor"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_id_plano"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/bt_volta_plano"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/seta_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <Spinner
+        android:id="@+id/sp_planos_plano"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/et_id_plano"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_id_plano" />
+
+    <EditText
+        android:id="@+id/et_id_plano"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:hint="Numero de Identificação"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/sp_planos_plano"
+        app:layout_constraintTop_toBottomOf="@+id/view10"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/bt_salvar_planos"
+        style="@style/FirebaseUI.Button"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:elevation="1dp"
+        android:text="SALVAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_plano_divisor"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tv_planodados_plano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Unimed  -  ID: 456.456.7889.123"
+        android:textColor="@color/colorPrimaryText"
+        android:typeface="monospace"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/v_plano_divisor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view10" />
+
+</android.support.constraint.ConstraintLayout>

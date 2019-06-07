@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MedCarry</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="dialog_select_foto">SelecionaFoto</string>
+    <string name="facebook_app_id">1905127196451641</string>
+    <string name="facebook_application_id">1905127196451641</string>
+    <string name="fb_login_protocol_scheme">fb1905127196451641</string>
+    <string name="twitter_consumer_key" translatable="false">bFPXAMFrcIHtKkwURCYtOxZEa</string>
+    <string name="twitter_consumer_secret" translatable="false">UXLwdfxYqQaVBZ8nwVQK6mNLBPKhArnJUc06smR8pbl65Amdq2</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+    <string name="first_login_phone">0</string>
+
+    <string name="preferences_nome"></string>
+    <string name="preferences_cpf"></string>
+    <string name="preferences_data"></string>
+    <string name="preferences_email"></string>
+    <string name="preferences_telefone"></string>
+
+    <string name="preferences_plano_nome"></string>
+    <string name="preferences_plano_id"></string>
+    <string name="preferences_profile_image"></string>
+
+
+    <string-array name="planos_saude">
+        <item>Amil</item>
+        <item>Unimed</item>
+        <item>Intermedica</item>
+        <item>HapVida</item>
+        <item>GoldenCross</item>
+        <item>CarePlus</item>
+        <item>Promedica</item>
+        <item>MediService</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
